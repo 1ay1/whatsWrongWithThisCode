@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int numberOfChs(char *ch)
+int numberOfChs(char *ch)  //function for getting number of chars in the string we will feed
 {
   char ch1 = 'A';
   int n = 0;
@@ -14,7 +14,7 @@ int numberOfChs(char *ch)
   return n;
 }
 
-void swap(char *ch, char *ch2)
+void swap(char *ch, char *ch2) //function for swapping two chars
 {
   char *tempCh = malloc(sizeof(char));
   *tempCh = *ch2;
@@ -22,7 +22,7 @@ void swap(char *ch, char *ch2)
   *ch = *tempCh;
 }
 
-void inserSort(char *ch)
+void inserSort(char *ch) //function for the Insertion Sort
 {
   int i = 0, j = 0; //counters
   for(i = 1; i < (numberOfChs(ch)); i++)
