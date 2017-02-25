@@ -1,3 +1,4 @@
+// This code gives, segmentation dump error
 #include <stdio.h>
 #include <stdlib.h>
 
